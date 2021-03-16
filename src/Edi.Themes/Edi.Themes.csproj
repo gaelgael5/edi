@@ -1,0 +1,257 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\App\About\AboutLogo128.png" />
+    <None Remove="Images\App\DocTabDark\Lock-icon.png" />
+    <None Remove="Images\App\DocTab\Lock-icon.png" />
+    <None Remove="Images\App\Edit_Copy32.png" />
+    <None Remove="Images\App\Edit_Cut32.png" />
+    <None Remove="Images\App\Edit_Delete32.png" />
+    <None Remove="Images\App\Edit_Find16.ico" />
+    <None Remove="Images\App\Edit_Find32.png" />
+    <None Remove="Images\App\Edit_Find_Replace32.png" />
+    <None Remove="Images\App\Edit_Paste32.png" />
+    <None Remove="Images\App\Edit_Redo32.png" />
+    <None Remove="Images\App\Edit_Undo32.png" />
+    <None Remove="Images\App\File_New32.png" />
+    <None Remove="Images\App\File_Open32.png" />
+    <None Remove="Images\App\File_Save16.png" />
+    <None Remove="Images\App\File_Save32.png" />
+    <None Remove="Images\App\File_Save64.png" />
+    <None Remove="Images\App\File_Save_All32.png" />
+    <None Remove="Images\App\Help_About32.png" />
+    <None Remove="Images\App\Help_Hint32.png" />
+    <None Remove="Images\App\PinableListViewDark\NoPin16.png" />
+    <None Remove="Images\App\PinableListViewDark\NoPin32.png" />
+    <None Remove="Images\App\PinableListView\NoPin16.png" />
+    <None Remove="Images\App\PinableListView\NoPin32.png" />
+    <None Remove="Images\App\ShowEnter32.png" />
+    <None Remove="Images\App\ShowLineNumbers32.png" />
+    <None Remove="Images\App\ShowSpaces32.png" />
+    <None Remove="Images\App\ShowTab32.png" />
+    <None Remove="Images\App\ShowWordWrap32.png" />
+    <None Remove="Images\App\StartPage\Edi100.png" />
+    <None Remove="Images\App\StartPage\File_New64.png" />
+    <None Remove="Images\App\StartPage\File_Open64.png" />
+    <None Remove="Images\App\SyntaxHighlighting_32.png" />
+    <None Remove="Images\document.png" />
+    <None Remove="Images\Documents\document.png" />
+    <None Remove="Images\Documents\Log4net.png" />
+    <None Remove="Images\Documents\MiniUml.png" />
+    <None Remove="Images\Log4Net\ClearFilter\ClearFilters_16.png" />
+    <None Remove="Images\Log4Net\ClearFilter\ClearFilters_32.png" />
+    <None Remove="Images\Log4Net\ClearFilter\ClearFilters_64.png" />
+    <None Remove="Images\Log4Net\Filter\filter_Applied_16.png" />
+    <None Remove="Images\Log4Net\Filter\filter_Applied_32.png" />
+    <None Remove="Images\Log4Net\Filter\filter_Applied_64.png" />
+    <None Remove="Images\Log4Net\Filter\filter_NotApplied_16.png" />
+    <None Remove="Images\Log4Net\Filter\filter_NotApplied_32.png" />
+    <None Remove="Images\Log4Net\Filter\filter_NotApplied_64.png" />
+    <None Remove="Images\Log4Net\Refresh\Refresh_16.png" />
+    <None Remove="Images\Log4Net\Refresh\Refresh_32.png" />
+    <None Remove="Images\Log4Net\Refresh\Refresh_64.png" />
+    <None Remove="Images\MessageIcons\Error.png" />
+    <None Remove="Images\MessageIcons\Information.png" />
+    <None Remove="Images\MessageIcons\InternalError.png" />
+    <None Remove="Images\MessageIcons\Unknown.png" />
+    <None Remove="Images\MessageIcons\Warning.png" />
+    <None Remove="Images\property-blue.png" />
+    <None Remove="MetroIcons\Dark\appbar.clipboard.paste.png" />
+    <None Remove="MetroIcons\Dark\appbar.disk.download.png" />
+    <None Remove="MetroIcons\Dark\appbar.disk.png" />
+    <None Remove="MetroIcons\Dark\appbar.folder.open.png" />
+    <None Remove="MetroIcons\Dark\appbar.lamp.variant.png" />
+    <None Remove="MetroIcons\Dark\appbar.page.copy.png" />
+    <None Remove="MetroIcons\Dark\appbar.page.new.png" />
+    <None Remove="MetroIcons\Dark\appbar.redo.png" />
+    <None Remove="MetroIcons\Dark\appbar.save.png" />
+    <None Remove="MetroIcons\Dark\appbar.saveall.png" />
+    <None Remove="MetroIcons\Dark\appbar.text.align.justify.png" />
+    <None Remove="MetroIcons\Dark\appbar.undo.png" />
+    <None Remove="MetroIcons\Dark\delete.png" />
+    <None Remove="MetroIcons\Dark\scissors.png" />
+    <None Remove="MetroIcons\Dark\ShowEndOfLine.png" />
+    <None Remove="MetroIcons\Dark\ShowLineNumbers.png" />
+    <None Remove="MetroIcons\Dark\ShowSpace.png" />
+    <None Remove="MetroIcons\Dark\ShowTab.png" />
+    <None Remove="MetroIcons\Light\appbar.clipboard.paste.png" />
+    <None Remove="MetroIcons\Light\appbar.disk.download.png" />
+    <None Remove="MetroIcons\Light\appbar.disk.png" />
+    <None Remove="MetroIcons\Light\appbar.folder.open.png" />
+    <None Remove="MetroIcons\Light\appbar.lamp.variant.png" />
+    <None Remove="MetroIcons\Light\appbar.page.copy.png" />
+    <None Remove="MetroIcons\Light\appbar.page.new.png" />
+    <None Remove="MetroIcons\Light\appbar.redo.png" />
+    <None Remove="MetroIcons\Light\appbar.saveall.png" />
+    <None Remove="MetroIcons\Light\appbar.text.align.justify.png" />
+    <None Remove="MetroIcons\Light\appbar.undo.png" />
+    <None Remove="MetroIcons\Light\delete.png" />
+    <None Remove="MetroIcons\Light\scissors.png" />
+    <None Remove="MetroIcons\Light\ShowEndOfLine.png" />
+    <None Remove="MetroIcons\Light\ShowLineNumbers.png" />
+    <None Remove="MetroIcons\Light\ShowSpace.png" />
+    <None Remove="MetroIcons\Light\ShowTab.png" />
+    <None Remove="MetroIcons\SVG\appbar.clipboard.paste.svg" />
+    <None Remove="MetroIcons\SVG\appbar.disk.download.svg" />
+    <None Remove="MetroIcons\SVG\appbar.disk.svg" />
+    <None Remove="MetroIcons\SVG\appbar.folder.open.svg" />
+    <None Remove="MetroIcons\SVG\appbar.page.copy.svg" />
+    <None Remove="MetroIcons\SVG\appbar.page.new.svg" />
+    <None Remove="MetroIcons\SVG\appbar.redo.svg" />
+    <None Remove="MetroIcons\SVG\appbar.save.svg" />
+    <None Remove="MetroIcons\SVG\appbar.saveall.svg" />
+    <None Remove="MetroIcons\SVG\appbar.text.align.justify.svg" />
+    <None Remove="MetroIcons\SVG\appbar.undo.svg" />
+    <None Remove="MetroIcons\SVG\delete.svg" />
+    <None Remove="MetroIcons\SVG\scissors.svg" />
+    <None Remove="MetroIcons\SVG\ShowEndOfLine.svg" />
+    <None Remove="MetroIcons\SVG\ShowLineNumbers.svg" />
+    <None Remove="MetroIcons\SVG\ShowSpace.svg" />
+    <None Remove="MetroIcons\SVG\ShowTab.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="MetroIcons\SVG\appbar.clipboard.paste.svg" />
+    <Content Include="MetroIcons\SVG\appbar.disk.download.svg" />
+    <Content Include="MetroIcons\SVG\appbar.disk.svg" />
+    <Content Include="MetroIcons\SVG\appbar.folder.open.svg" />
+    <Content Include="MetroIcons\SVG\appbar.page.copy.svg" />
+    <Content Include="MetroIcons\SVG\appbar.page.new.svg" />
+    <Content Include="MetroIcons\SVG\appbar.redo.svg" />
+    <Content Include="MetroIcons\SVG\appbar.save.svg" />
+    <Content Include="MetroIcons\SVG\appbar.saveall.svg" />
+    <Content Include="MetroIcons\SVG\appbar.text.align.justify.svg" />
+    <Content Include="MetroIcons\SVG\appbar.undo.svg" />
+    <Content Include="MetroIcons\SVG\delete.svg" />
+    <Content Include="MetroIcons\SVG\scissors.svg" />
+    <Content Include="MetroIcons\SVG\ShowEndOfLine.svg" />
+    <Content Include="MetroIcons\SVG\ShowLineNumbers.svg" />
+    <Content Include="MetroIcons\SVG\ShowSpace.svg" />
+    <Content Include="MetroIcons\SVG\ShowTab.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Castle.Core" Version="4.4.1" />
+    <PackageReference Include="Dirkster.UserNotifications" Version="1.5.1" />
+    <PackageReference Include="log4net" Version="2.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Black.Beard.Common\Black.Beard.Common.csproj" />
+    <ProjectReference Include="..\DropDownButtonLib\DropDownButtonLib.csproj" />
+    <ProjectReference Include="..\HistoryControlLib\HistoryControlLib.csproj" />
+    <ProjectReference Include="..\InplaceEditBoxLib\InplaceEditBoxLib.csproj" />
+    <ProjectReference Include="..\MiniUML.View\MiniUML.View.csproj" />
+    <ProjectReference Include="..\MLib\MLib.csproj" />
+    <ProjectReference Include="..\MWindowLib\MWindowLib.csproj" />
+    <ProjectReference Include="..\NumericUpDownLib\NumericUpDownLib.csproj" />
+    <ProjectReference Include="..\UnitComboLib\UnitComboLib.csproj" />
+    <ProjectReference Include="..\WatermarkControlsLib\WatermarkControlsLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="YalvLib">
+      <HintPath>..\libs\YalvLib\YalvLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\App\About\AboutLogo128.png" />
+    <Resource Include="Images\App\DocTabDark\Lock-icon.png" />
+    <Resource Include="Images\App\DocTab\Lock-icon.png" />
+    <Resource Include="Images\App\Edit_Copy32.png" />
+    <Resource Include="Images\App\Edit_Cut32.png" />
+    <Resource Include="Images\App\Edit_Delete32.png" />
+    <Resource Include="Images\App\Edit_Find16.ico" />
+    <Resource Include="Images\App\Edit_Find32.png" />
+    <Resource Include="Images\App\Edit_Find_Replace32.png" />
+    <Resource Include="Images\App\Edit_Paste32.png" />
+    <Resource Include="Images\App\Edit_Redo32.png" />
+    <Resource Include="Images\App\Edit_Undo32.png" />
+    <Resource Include="Images\App\File_New32.png" />
+    <Resource Include="Images\App\File_Open32.png" />
+    <Resource Include="Images\App\File_Save16.png" />
+    <Resource Include="Images\App\File_Save32.png" />
+    <Resource Include="Images\App\File_Save64.png" />
+    <Resource Include="Images\App\File_Save_All32.png" />
+    <Resource Include="Images\App\Help_About32.png" />
+    <Resource Include="Images\App\Help_Hint32.png" />
+    <Resource Include="Images\App\PinableListViewDark\NoPin16.png" />
+    <Resource Include="Images\App\PinableListViewDark\NoPin32.png" />
+    <Resource Include="Images\App\PinableListView\NoPin16.png" />
+    <Resource Include="Images\App\PinableListView\NoPin32.png" />
+    <Resource Include="Images\App\ShowEnter32.png" />
+    <Resource Include="Images\App\ShowLineNumbers32.png" />
+    <Resource Include="Images\App\ShowSpaces32.png" />
+    <Resource Include="Images\App\ShowTab32.png" />
+    <Resource Include="Images\App\ShowWordWrap32.png" />
+    <Resource Include="Images\App\StartPage\Edi100.png" />
+    <Resource Include="Images\App\StartPage\File_New64.png" />
+    <Resource Include="Images\App\StartPage\File_Open64.png" />
+    <Resource Include="Images\App\SyntaxHighlighting_32.png" />
+    <Resource Include="Images\document.png" />
+    <Resource Include="Images\Documents\document.png" />
+    <Resource Include="Images\Documents\Log4net.png" />
+    <Resource Include="Images\Documents\MiniUml.png" />
+    <Resource Include="Images\Log4Net\ClearFilter\ClearFilters_16.png" />
+    <Resource Include="Images\Log4Net\ClearFilter\ClearFilters_32.png" />
+    <Resource Include="Images\Log4Net\ClearFilter\ClearFilters_64.png" />
+    <Resource Include="Images\Log4Net\Filter\filter_Applied_16.png" />
+    <Resource Include="Images\Log4Net\Filter\filter_Applied_32.png" />
+    <Resource Include="Images\Log4Net\Filter\filter_Applied_64.png" />
+    <Resource Include="Images\Log4Net\Filter\filter_NotApplied_16.png" />
+    <Resource Include="Images\Log4Net\Filter\filter_NotApplied_32.png" />
+    <Resource Include="Images\Log4Net\Filter\filter_NotApplied_64.png" />
+    <Resource Include="Images\Log4Net\Refresh\Refresh_16.png" />
+    <Resource Include="Images\Log4Net\Refresh\Refresh_32.png" />
+    <Resource Include="Images\Log4Net\Refresh\Refresh_64.png" />
+    <Resource Include="Images\MessageIcons\Error.png" />
+    <Resource Include="Images\MessageIcons\Information.png" />
+    <Resource Include="Images\MessageIcons\InternalError.png" />
+    <Resource Include="Images\MessageIcons\Unknown.png" />
+    <Resource Include="Images\MessageIcons\Warning.png" />
+    <Resource Include="Images\property-blue.png" />
+    <Resource Include="MetroIcons\Dark\appbar.clipboard.paste.png" />
+    <Resource Include="MetroIcons\Dark\appbar.disk.download.png" />
+    <Resource Include="MetroIcons\Dark\appbar.disk.png" />
+    <Resource Include="MetroIcons\Dark\appbar.folder.open.png" />
+    <Resource Include="MetroIcons\Dark\appbar.lamp.variant.png" />
+    <Resource Include="MetroIcons\Dark\appbar.page.copy.png" />
+    <Resource Include="MetroIcons\Dark\appbar.page.new.png" />
+    <Resource Include="MetroIcons\Dark\appbar.redo.png" />
+    <Resource Include="MetroIcons\Dark\appbar.save.png" />
+    <Resource Include="MetroIcons\Dark\appbar.saveall.png" />
+    <Resource Include="MetroIcons\Dark\appbar.text.align.justify.png" />
+    <Resource Include="MetroIcons\Dark\appbar.undo.png" />
+    <Resource Include="MetroIcons\Dark\delete.png" />
+    <Resource Include="MetroIcons\Dark\scissors.png" />
+    <Resource Include="MetroIcons\Dark\ShowEndOfLine.png" />
+    <Resource Include="MetroIcons\Dark\ShowLineNumbers.png" />
+    <Resource Include="MetroIcons\Dark\ShowSpace.png" />
+    <Resource Include="MetroIcons\Dark\ShowTab.png" />
+    <Resource Include="MetroIcons\Light\appbar.clipboard.paste.png" />
+    <Resource Include="MetroIcons\Light\appbar.disk.download.png" />
+    <Resource Include="MetroIcons\Light\appbar.disk.png" />
+    <Resource Include="MetroIcons\Light\appbar.folder.open.png" />
+    <Resource Include="MetroIcons\Light\appbar.lamp.variant.png" />
+    <Resource Include="MetroIcons\Light\appbar.page.copy.png" />
+    <Resource Include="MetroIcons\Light\appbar.page.new.png" />
+    <Resource Include="MetroIcons\Light\appbar.redo.png" />
+    <Resource Include="MetroIcons\Light\appbar.saveall.png" />
+    <Resource Include="MetroIcons\Light\appbar.text.align.justify.png" />
+    <Resource Include="MetroIcons\Light\appbar.undo.png" />
+    <Resource Include="MetroIcons\Light\delete.png" />
+    <Resource Include="MetroIcons\Light\scissors.png" />
+    <Resource Include="MetroIcons\Light\ShowEndOfLine.png" />
+    <Resource Include="MetroIcons\Light\ShowLineNumbers.png" />
+    <Resource Include="MetroIcons\Light\ShowSpace.png" />
+    <Resource Include="MetroIcons\Light\ShowTab.png" />
+  </ItemGroup>
+
+</Project>

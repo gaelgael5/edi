@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Metro\SVG\appbar.cancel.svg" />
+    <None Remove="Images\Metro\SVG\appbar.check.svg" />
+    <None Remove="Images\Metro\SVG\appbar.information.svg" />
+    <None Remove="Images\Metro\SVG\appbar.lightbulb.hue.on.svg" />
+    <None Remove="Images\Metro\SVG\appbar.lightbulb.hue.svg" />
+    <None Remove="Images\Metro\SVG\appbar.lightbulb.svg" />
+    <None Remove="Images\Metro\SVG\appbar.lightning.svg" />
+    <None Remove="Images\Metro\SVG\appbar.noentry.svg" />
+    <None Remove="Images\Metro\SVG\appbar.question.svg" />
+    <None Remove="Images\Metro\SVG\appbar.sign.stop.svg" />
+    <None Remove="Images\Metro\SVG\appbar.stop.svg" />
+    <None Remove="Images\Metro\SVG\appbar.warning.circle.svg" />
+    <None Remove="Images\Metro\SVG\appbar.warning.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\Metro\SVG\appbar.cancel.svg" />
+    <Content Include="Images\Metro\SVG\appbar.check.svg" />
+    <Content Include="Images\Metro\SVG\appbar.information.svg" />
+    <Content Include="Images\Metro\SVG\appbar.lightbulb.hue.on.svg" />
+    <Content Include="Images\Metro\SVG\appbar.lightbulb.hue.svg" />
+    <Content Include="Images\Metro\SVG\appbar.lightbulb.svg" />
+    <Content Include="Images\Metro\SVG\appbar.lightning.svg" />
+    <Content Include="Images\Metro\SVG\appbar.noentry.svg" />
+    <Content Include="Images\Metro\SVG\appbar.question.svg" />
+    <Content Include="Images\Metro\SVG\appbar.sign.stop.svg" />
+    <Content Include="Images\Metro\SVG\appbar.stop.svg" />
+    <Content Include="Images\Metro\SVG\appbar.warning.circle.svg" />
+    <Content Include="Images\Metro\SVG\appbar.warning.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Castle.Windsor" Version="5.1.1" />
+    <PackageReference Include="Dirkster.UserNotifications" Version="1.5.1" />
+    <PackageReference Include="log4net" Version="2.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Edi.Core\Edi.Core.csproj" />
+    <ProjectReference Include="..\Edi.Dialogs\Edi.Dialogs.csproj" />
+    <ProjectReference Include="..\Edi.SettingsView\Edi.SettingsView.csproj" />
+    <ProjectReference Include="..\Edi.Settings\Edi.Settings.csproj" />
+    <ProjectReference Include="..\Edi.Util\Edi.Util.csproj" />
+    <ProjectReference Include="..\Files\Files.csproj" />
+    <ProjectReference Include="..\ICSharpCode.AvalonEdit\ICSharpCode.AvalonEdit.csproj" />
+    <ProjectReference Include="..\MiniUML.Framework\MiniUML.Framework.csproj" />
+    <ProjectReference Include="..\MiniUML.Model\MiniUML.Model.csproj" />
+    <ProjectReference Include="..\MiniUML.View\MiniUML.View.csproj" />
+    <ProjectReference Include="..\MLib\MLib.csproj" />
+    <ProjectReference Include="..\MRULib\MRULib.csproj" />
+    <ProjectReference Include="..\MsgBox\MsgBox.csproj" />
+    <ProjectReference Include="..\SimpleControls\SimpleControls.csproj" />
+    <ProjectReference Include="..\UnitComboLib\UnitComboLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="YalvLib">
+      <HintPath>..\libs\YalvLib\YalvLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

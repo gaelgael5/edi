@@ -1,0 +1,86 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Command.Select.png" />
+    <None Remove="Images\Connect\Command.CreateAggregationShape.png" />
+    <None Remove="Images\Connect\Command.CreateAssociationShape.png" />
+    <None Remove="Images\Connect\Command.CreateCompositionShape.png" />
+    <None Remove="Images\Connect\Command.CreateInheritanceShape.png" />
+    <None Remove="Images\Shapes\Activity\ActivityFinalToolbox.png" />
+    <None Remove="Images\Shapes\Activity\ActivityFlowFinalToolbox.png" />
+    <None Remove="Images\Shapes\Activity\ActivityInitialToolbox.png" />
+    <None Remove="Images\Shapes\Activity\ActivitySyncToolbox.png" />
+    <None Remove="Images\Shapes\Activity\Event1Toolbox.png" />
+    <None Remove="Images\Shapes\Activity\EventToolbox.png" />
+    <None Remove="Images\Shapes\Class\Association.png" />
+    <None Remove="Images\Shapes\Class\Class.png" />
+    <None Remove="Images\Shapes\Class\DataType.png" />
+    <None Remove="Images\Shapes\Class\Enumeration.png" />
+    <None Remove="Images\Shapes\Class\Interface.png" />
+    <None Remove="Images\Shapes\Class\Primitive.png" />
+    <None Remove="Images\Shapes\Class\Signal.png" />
+    <None Remove="Images\Shapes\Class\Table.png" />
+    <None Remove="Images\Shapes\Class\TableToolBox.png" />
+    <None Remove="Images\Shapes\Common\Boundary.png" />
+    <None Remove="Images\Shapes\Common\Note.png" />
+    <None Remove="Images\Shapes\Common\Package.png" />
+    <None Remove="Images\Shapes\Deployment\Component.png" />
+    <None Remove="Images\Shapes\Deployment\ComponentToolBox.png" />
+    <None Remove="Images\Shapes\Deployment\DeploymentSpecificationToolBox.png" />
+    <None Remove="Images\Shapes\Deployment\DeviceToolBox.png" />
+    <None Remove="Images\Shapes\Deployment\ExecutionEnvironmentToolBox.png" />
+    <None Remove="Images\Shapes\Deployment\NodeToolBox.png" />
+    <None Remove="Images\Shapes\UseCase\ActorSquareToolbox.png" />
+    <None Remove="Images\Shapes\UseCase\ActorToolbox.png" />
+    <None Remove="Images\Shapes\UseCase\CollaborationToolBox.png" />
+    <None Remove="Images\Shapes\UseCase\UseCaseToolBox.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MiniUML.Framework\MiniUML.Framework.csproj" />
+    <ProjectReference Include="..\MiniUML.Model\MiniUML.Model.csproj" />
+    <ProjectReference Include="..\MiniUML.View\MiniUML.View.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Command.Select.png" />
+    <Resource Include="Images\Connect\Command.CreateAggregationShape.png" />
+    <Resource Include="Images\Connect\Command.CreateAssociationShape.png" />
+    <Resource Include="Images\Connect\Command.CreateCompositionShape.png" />
+    <Resource Include="Images\Connect\Command.CreateInheritanceShape.png" />
+    <Resource Include="Images\Shapes\Activity\ActivityFinalToolbox.png" />
+    <Resource Include="Images\Shapes\Activity\ActivityFlowFinalToolbox.png" />
+    <Resource Include="Images\Shapes\Activity\ActivityInitialToolbox.png" />
+    <Resource Include="Images\Shapes\Activity\ActivitySyncToolbox.png" />
+    <Resource Include="Images\Shapes\Activity\Event1Toolbox.png" />
+    <Resource Include="Images\Shapes\Activity\EventToolbox.png" />
+    <Resource Include="Images\Shapes\Class\Association.png" />
+    <Resource Include="Images\Shapes\Class\Class.png" />
+    <Resource Include="Images\Shapes\Class\DataType.png" />
+    <Resource Include="Images\Shapes\Class\Enumeration.png" />
+    <Resource Include="Images\Shapes\Class\Interface.png" />
+    <Resource Include="Images\Shapes\Class\Primitive.png" />
+    <Resource Include="Images\Shapes\Class\Signal.png" />
+    <Resource Include="Images\Shapes\Class\Table.png" />
+    <Resource Include="Images\Shapes\Class\TableToolBox.png" />
+    <Resource Include="Images\Shapes\Common\Boundary.png" />
+    <Resource Include="Images\Shapes\Common\Note.png" />
+    <Resource Include="Images\Shapes\Common\Package.png" />
+    <Resource Include="Images\Shapes\Deployment\Component.png" />
+    <Resource Include="Images\Shapes\Deployment\ComponentToolBox.png" />
+    <Resource Include="Images\Shapes\Deployment\DeploymentSpecificationToolBox.png" />
+    <Resource Include="Images\Shapes\Deployment\DeviceToolBox.png" />
+    <Resource Include="Images\Shapes\Deployment\ExecutionEnvironmentToolBox.png" />
+    <Resource Include="Images\Shapes\Deployment\NodeToolBox.png" />
+    <Resource Include="Images\Shapes\UseCase\ActorSquareToolbox.png" />
+    <Resource Include="Images\Shapes\UseCase\ActorToolbox.png" />
+    <Resource Include="Images\Shapes\UseCase\CollaborationToolBox.png" />
+    <Resource Include="Images\Shapes\UseCase\UseCaseToolBox.png" />
+  </ItemGroup>
+
+</Project>

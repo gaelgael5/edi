@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Castle.Core" Version="4.4.1" />
+    <PackageReference Include="Castle.Windsor" Version="5.1.1" />
+    <PackageReference Include="log4net" Version="2.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Edi.Interfaces\Edi.Interfaces.csproj" />
+    <ProjectReference Include="..\Edi.Themes\Edi.Themes.csproj" />
+    <ProjectReference Include="..\Edi.Util\Edi.Util.csproj" />
+    <ProjectReference Include="..\FileSystemModels\FileSystemModels.csproj" />
+    <ProjectReference Include="..\ICSharpCode.AvalonEdit\ICSharpCode.AvalonEdit.csproj" />
+    <ProjectReference Include="..\MLib\MLib.csproj" />
+    <ProjectReference Include="..\MRULib\MRULib.csproj" />
+    <ProjectReference Include="..\UnitComboLib\UnitComboLib.csproj" />
+  </ItemGroup>
+
+</Project>

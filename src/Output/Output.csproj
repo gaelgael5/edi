@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\MetroDark\appbar.monitor.png" />
+    <None Remove="Images\MetroLight\appbar.monitor.png" />
+    <None Remove="Images\SVG\appbar.monitor.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\SVG\appbar.monitor.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Output.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Castle.Windsor" Version="5.1.1" />
+    <PackageReference Include="log4net" Version="2.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Black.Beard.Common\Black.Beard.Common.csproj" />
+    <ProjectReference Include="..\Edi.Core\Edi.Core.csproj" />
+    <ProjectReference Include="..\Edi.Interfaces\Edi.Interfaces.csproj" />
+    <ProjectReference Include="..\ICSharpCode.AvalonEdit\ICSharpCode.AvalonEdit.csproj" />
+    <ProjectReference Include="..\UnitComboLib\UnitComboLib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\MetroDark\appbar.monitor.png" />
+    <Resource Include="Images\MetroLight\appbar.monitor.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dirkster.UserNotifications" Version="1.5.1" />
+    <PackageReference Include="log4net" Version="2.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FileSystemModels\FileSystemModels.csproj" />
+    <ProjectReference Include="..\InplaceEditBoxLib\InplaceEditBoxLib.csproj" />
+    <ProjectReference Include="..\MsgBox\MsgBox.csproj" />
+  </ItemGroup>
+
+</Project>

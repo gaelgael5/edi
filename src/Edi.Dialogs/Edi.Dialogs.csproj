@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Metro\SVG\appbar.cancel.svg" />
+    <None Remove="Images\Metro\SVG\appbar.check.svg" />
+    <None Remove="Images\Metro\SVG\appbar.information.svg" />
+    <None Remove="Images\Metro\SVG\appbar.lightbulb.hue.on.svg" />
+    <None Remove="Images\Metro\SVG\appbar.lightbulb.hue.svg" />
+    <None Remove="Images\Metro\SVG\appbar.lightbulb.svg" />
+    <None Remove="Images\Metro\SVG\appbar.lightning.svg" />
+    <None Remove="Images\Metro\SVG\appbar.noentry.svg" />
+    <None Remove="Images\Metro\SVG\appbar.question.svg" />
+    <None Remove="Images\Metro\SVG\appbar.sign.stop.svg" />
+    <None Remove="Images\Metro\SVG\appbar.stop.svg" />
+    <None Remove="Images\Metro\SVG\appbar.warning.circle.svg" />
+    <None Remove="Images\Metro\SVG\appbar.warning.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\Metro\SVG\appbar.cancel.svg" />
+    <Content Include="Images\Metro\SVG\appbar.check.svg" />
+    <Content Include="Images\Metro\SVG\appbar.information.svg" />
+    <Content Include="Images\Metro\SVG\appbar.lightbulb.hue.on.svg" />
+    <Content Include="Images\Metro\SVG\appbar.lightbulb.hue.svg" />
+    <Content Include="Images\Metro\SVG\appbar.lightbulb.svg" />
+    <Content Include="Images\Metro\SVG\appbar.lightning.svg" />
+    <Content Include="Images\Metro\SVG\appbar.noentry.svg" />
+    <Content Include="Images\Metro\SVG\appbar.question.svg" />
+    <Content Include="Images\Metro\SVG\appbar.sign.stop.svg" />
+    <Content Include="Images\Metro\SVG\appbar.stop.svg" />
+    <Content Include="Images\Metro\SVG\appbar.warning.circle.svg" />
+    <Content Include="Images\Metro\SVG\appbar.warning.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dirkster.UserNotifications" Version="1.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Edi.Core\Edi.Core.csproj" />
+    <ProjectReference Include="..\Edi.Settings\Edi.Settings.csproj" />
+    <ProjectReference Include="..\Edi.Util\Edi.Util.csproj" />
+    <ProjectReference Include="..\MLib\MLib.csproj" />
+    <ProjectReference Include="..\MsgBox\MsgBox.csproj" />
+    <ProjectReference Include="..\MWindowLib\MWindowLib.csproj" />
+    <ProjectReference Include="..\SimpleControls\SimpleControls.csproj" />
+  </ItemGroup>
+
+</Project>

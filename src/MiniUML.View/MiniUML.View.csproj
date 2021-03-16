@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="MetroIcons\Dark\appbar.clipboard.paste.png" />
+    <None Remove="MetroIcons\Dark\appbar.page.copy.png" />
+    <None Remove="MetroIcons\Dark\appbar.redo.png" />
+    <None Remove="MetroIcons\Dark\appbar.undo.png" />
+    <None Remove="MetroIcons\Dark\delete.png" />
+    <None Remove="MetroIcons\Dark\scissors.png" />
+    <None Remove="MetroIcons\Light\appbar.clipboard.paste.png" />
+    <None Remove="MetroIcons\Light\appbar.page.copy.png" />
+    <None Remove="MetroIcons\Light\appbar.redo.png" />
+    <None Remove="MetroIcons\Light\appbar.undo.png" />
+    <None Remove="MetroIcons\Light\delete.png" />
+    <None Remove="MetroIcons\Light\scissors.png" />
+    <None Remove="MetroIcons\SVG\appbar.clipboard.paste.svg" />
+    <None Remove="MetroIcons\SVG\appbar.page.copy.svg" />
+    <None Remove="MetroIcons\SVG\appbar.redo.svg" />
+    <None Remove="MetroIcons\SVG\appbar.undo.svg" />
+    <None Remove="MetroIcons\SVG\delete.svg" />
+    <None Remove="MetroIcons\SVG\scissors.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="MetroIcons\SVG\appbar.clipboard.paste.svg" />
+    <Content Include="MetroIcons\SVG\appbar.page.copy.svg" />
+    <Content Include="MetroIcons\SVG\appbar.redo.svg" />
+    <Content Include="MetroIcons\SVG\appbar.undo.svg" />
+    <Content Include="MetroIcons\SVG\delete.svg" />
+    <Content Include="MetroIcons\SVG\scissors.svg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dirkster.UserNotifications" Version="1.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Edi.Core\Edi.Core.csproj" />
+    <ProjectReference Include="..\Edi.Util\Edi.Util.csproj" />
+    <ProjectReference Include="..\ICSharpCode.AvalonEdit\ICSharpCode.AvalonEdit.csproj" />
+    <ProjectReference Include="..\MiniUML.Framework\MiniUML.Framework.csproj" />
+    <ProjectReference Include="..\MiniUML.Model\MiniUML.Model.csproj" />
+    <ProjectReference Include="..\MsgBox\MsgBox.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="MetroIcons\Dark\appbar.clipboard.paste.png" />
+    <Resource Include="MetroIcons\Dark\appbar.page.copy.png" />
+    <Resource Include="MetroIcons\Dark\appbar.redo.png" />
+    <Resource Include="MetroIcons\Dark\appbar.undo.png" />
+    <Resource Include="MetroIcons\Dark\delete.png" />
+    <Resource Include="MetroIcons\Dark\scissors.png" />
+    <Resource Include="MetroIcons\Light\appbar.clipboard.paste.png" />
+    <Resource Include="MetroIcons\Light\appbar.page.copy.png" />
+    <Resource Include="MetroIcons\Light\appbar.redo.png" />
+    <Resource Include="MetroIcons\Light\appbar.undo.png" />
+    <Resource Include="MetroIcons\Light\delete.png" />
+    <Resource Include="MetroIcons\Light\scissors.png" />
+  </ItemGroup>
+
+</Project>

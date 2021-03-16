@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Edi.Core\Edi.Core.csproj" />
+    <ProjectReference Include="..\Edi.Settings\Edi.Settings.csproj" />
+    <ProjectReference Include="..\Edi.Util\Edi.Util.csproj" />
+    <ProjectReference Include="..\ICSharpCode.AvalonEdit\ICSharpCode.AvalonEdit.csproj" />
+    <ProjectReference Include="..\MLib\MLib.csproj" />
+    <ProjectReference Include="..\MWindowLib\MWindowLib.csproj" />
+    <ProjectReference Include="..\NumericUpDownLib\NumericUpDownLib.csproj" />
+    <ProjectReference Include="..\UnitComboLib\UnitComboLib.csproj" />
+  </ItemGroup>
+
+</Project>
